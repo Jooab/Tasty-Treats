@@ -1,4 +1,4 @@
-import { StyledFooter, SocialMedias, SocialMedia, StyledP } from "./css";
+import { StyledFooter, SocialMedias, SocialMedia, StyledP, StyledLink } from "./css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -18,7 +18,9 @@ export const Footer = () => {
           transition={{ duration: 0.2 }}
           viewport={{ once: true }}
         >
+          <StyledLink href="https://www.linkedin.com/in/joab-prates/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
+        </StyledLink>
         </MotionSocialMedia>
         <MotionSocialMedia
           initial={{ scale: 0, opacity: 0.5 }}
@@ -26,7 +28,9 @@ export const Footer = () => {
           transition={{ duration: 0.2 }}
           viewport={{ once: true }}
         >
+          <StyledLink href="https://github.com/Jooab" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
+        </StyledLink>
         </MotionSocialMedia>
         <MotionSocialMedia
           initial={{ scale: 0, opacity: 0.5 }}
@@ -34,7 +38,10 @@ export const Footer = () => {
           transition={{ duration: 0.2 }}
           viewport={{ once: true }}
         >
+          <StyledLink href="https://wa.me/5577981682828" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} />
+        </StyledLink>
+          
         </MotionSocialMedia>
       </SocialMedias>
       <MotionStyledP

@@ -18,14 +18,20 @@ export const SocialMedias = styled.ul`
   gap: 15px;
   list-style: none;
   margin: 24px 0 0;
+  padding-left: 20px;
 `;
 
 export const SocialMedia = styled.li`
   cursor: pointer;
+  
+`;
+
+export const StyledLink = styled.a`
+  color: #ffffff;
+  text-decoration: none;
   transition: 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.2);
     color: #f68989;
   }
 `;

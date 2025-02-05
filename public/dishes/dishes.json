@@ -1,0 +1,58 @@
+{
+    "dishes": [
+        {
+            "id": 10,
+            "name": "Burger",
+            "image": "../src/assets/images/burger.png",
+            "price": 6.50
+        },
+        {
+            "id": 11,
+            "name": "Pizza",
+            "image": "../src/assets/images/pizza.png",
+            "price": 7.00
+        },
+        {
+            "id": 12,
+            "name": "Tacos",
+            "image": "../src/assets/images/tacos.png",
+            "price": 8.00
+        },
+        {
+            "id": 13,
+            "name": "Chicken",
+            "image": "../src/assets/images/chicken.png",
+            "price": 5.50
+        },
+        {
+            "id": 14,
+            "name": "Bistec",
+            "image": "../src/assets/images/bistec.png",
+            "price": 6.00
+        },
+        {
+            "id": 15,
+            "name": "Sandwich",
+            "image": "../src/assets/images/sandwich.png",
+            "price": 7.50
+        },
+        {
+            "id": 16,
+            "name": "Popcorn",
+            "image": "../src/assets/images/popcorn.png",
+            "price": 7.50
+        },
+        {
+            "id": 17,
+            "name": "Pancakes",
+            "image": "../src/assets/images/pancakes.png",
+            "price": 7.50
+        },
+        {
+            "id": 18,
+            "name": "Hot Dog",
+            "image": "../src/assets/images/hot-dog.png",
+            "price": 7.50
+        }
+    ]
+}

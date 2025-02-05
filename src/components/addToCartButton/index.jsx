@@ -22,7 +22,7 @@ export const AddToCartButton = ({ product }) => {
     <Button>
       <QuantitySection>
         <IconMinus
-          src="./src/assets/images/icon-minus.svg"
+          src="./images/icon-minus.svg"
           alt="Remove Icon"
           onClick={() =>
             setCount((prevCount) => (prevCount > 1 ? prevCount - 1 : 1))
@@ -30,13 +30,13 @@ export const AddToCartButton = ({ product }) => {
         />
         <p>{count}</p>
         <IconPlus
-          src="./src/assets/images/icon-plus.svg"
+          src="./images/icon-plus.svg"
           alt="Add Icon"
           onClick={() => setCount((prevCount) => prevCount + 1)}
         />
       </QuantitySection>
       <CartIcon
-        src="./src/assets/images/icon-add-to-cart.svg"
+        src="./images/icon-add-to-cart.svg"
         alt="Cart Icon"
         onClick={handleAddToCartClick}
       />

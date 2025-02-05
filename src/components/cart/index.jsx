@@ -41,7 +41,7 @@ export const Cart = () => {
           alignItems: cartState.items.length === 0 ? "center" : "flex-start",
         }}
       >
-        <EmptyCartImage src="./src/assets/images/empty-cart.svg" alt="cart" />
+        <EmptyCartImage src="./images/empty-cart.svg" alt="cart" />
         <p>Your cart is empty</p>
       </CartContainer>
     );

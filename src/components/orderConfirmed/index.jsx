@@ -55,7 +55,7 @@ export const OrderConfirmed = ({ open, handleClose }) => {
       aria-describedby="modal-modal-description"
     >
       <OrderContainer style={style}>
-        <img src="./src/assets/images/icon-order-confirmed.svg" alt="" />
+        <img src="./images/icon-order-confirmed.svg" alt="" />
         <OrderTitle>Order Confirmed</OrderTitle>
         <CartProductsList>
           {cartState.items.map((item) => (

@@ -8,7 +8,7 @@ export const RemoveFromCartButton = ({ itemId }) => {
   return (
     <StyledButton onClick={() => removeItemFromCart(itemId)}>
       <StyledImage
-        src="./src/assets/images/icon-delete.svg"
+        src="./images/icon-delete.svg"
         alt="Remove Button"
       />
     </StyledButton>

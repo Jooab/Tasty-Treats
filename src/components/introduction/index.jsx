@@ -18,7 +18,7 @@ export const Introduction = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Image src="./src/assets/images/peoples.png" alt="Peoples" />
+        <Image src="./images/peoples.png" alt="Peoples" />
       </motion.div>
     </Container>
   );

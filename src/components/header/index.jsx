@@ -25,7 +25,7 @@ export const Header = () => {
   return (
     <StyledHeader>
       <LogoName>
-        <Logo src="./src/assets/images/donut-logo.png" alt="Logo" />
+        <Logo src="./images/donut-logo.png" alt="Logo" />
         <h3>Tasty Treats</h3>
       </LogoName>
 
@@ -63,7 +63,7 @@ export const Header = () => {
           }}
         >
           <CartIcon
-            src="./src/assets/images/cart2.png"
+            src="./images/cart2.png"
             alt="Cart Icon"
             onClick={() => setIsCartVisible(!isCartVisible)}
           />
@@ -72,7 +72,7 @@ export const Header = () => {
           )}
         </div>
 
-        <UserIcon src="./src/assets/images/user2.png" alt="Profile Icon" />
+        <UserIcon src="./images/user2.png" alt="Profile Icon" />
       </CartAndProfile>
     </StyledHeader>
   );

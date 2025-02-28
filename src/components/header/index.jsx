@@ -12,6 +12,7 @@ import {
 import { Link } from "react-scroll";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/cart-context";
+import { Link as RouterLink } from "react-router-dom";
 
 export const Header = () => {
   const { isCartVisible, setIsCartVisible, cartState } =
@@ -72,7 +73,9 @@ export const Header = () => {
           )}
         </div>
 
-        <UserIcon src="./images/user2.png" alt="Profile Icon" />
+        <RouterLink to="/signin" style={{ display: "flex" }}>
+          <UserIcon src="./images/user2.png" alt="Profile Icon" />
+        </RouterLink>
       </CartAndProfile>
     </StyledHeader>
   );

@@ -1,15 +1,15 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { Header } from "../header";
-import { Introduction } from "../introduction";
-import { AboutUs } from "../about";
-import { DishesSection } from "../dishesSection";
-import { DessertsSection } from "../dessertsSection";
-import { Footer } from "../footer";
-import { Cart } from "../cart";
+import { Header } from "../../components/header";
+import { Introduction } from "../../components/introduction";
+import { AboutUs } from "../../components/about";
+import { DishesSection } from "../../components/dishesSection";
+import { DessertsSection } from "../../components/dessertsSection";
+import { Footer } from "../../components/footer";
+import { Cart } from "../../components/cart";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/cart-context";
-import { OrderConfirmed } from "../orderConfirmed";
+import { OrderConfirmed } from "../../components/orderConfirmed";
 import { Toaster } from "react-hot-toast";
 
 const Home = () => {

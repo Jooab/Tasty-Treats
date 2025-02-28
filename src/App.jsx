@@ -1,17 +1,14 @@
-import './App.css'
-import Home from './components/home'
-import { CartProvider } from './contexts/cart-context';
-import React from 'react';
-import { Toaster } from 'react-hot-toast';
+import "./App.css";
+import { CartProvider } from "./contexts/cart-context";
+import React from "react";
+import { AppRoutes } from "./routes";
 
 function App() {
-
   return (
-    <CartProvider> 
-      
-      <Home />
+    <CartProvider>
+      <AppRoutes />
     </CartProvider>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -23,8 +23,6 @@ ul {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
@@ -37,6 +35,11 @@ h1 {
 
 button {
   cursor: pointer;
+  font-family: "Red Hat Text", serif;
+}
+
+input {
+  font-family: "Red Hat Text", serif;
 }
 
 @media (prefers-color-scheme: light) {

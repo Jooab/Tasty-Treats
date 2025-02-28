@@ -6,7 +6,7 @@ export const CartContainer = styled.div`
   padding: 40px 20px;
   color: #000000;
   background-color: #f8f8f8;
-  min-width: 250px;
+  min-width: 300px;
   position: absolute;
   z-index: 1;
   right: 10px;
